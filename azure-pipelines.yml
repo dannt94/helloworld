@@ -6,7 +6,7 @@ trigger:
 - master
 
 resources:
-- repo: https://dannt0471@dev.azure.com/dannt0471/helloworld/_git/helloworld
+- repo: https://github.com/dannt94/helloworld.git
 
 variables:
   tag: '$(Build.BuildId)'
